@@ -1,0 +1,14 @@
+{
+  "name": "apple-project",
+  "version": "1.0.0",
+  "description": "my intake project on the apple website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apple"
+  ],
+  "author": "mhatons",
+  "license": "MIT"
+}

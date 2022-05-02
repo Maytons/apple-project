@@ -1,0 +1,484 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box}
+
+.navigation {
+	background-color: #303030; display: flex; width: 100%; justify-content:space-between; 
+	 padding-left:100px; padding: right 100px; align-items: center
+	}
+.logo {
+	width: 5%; padding-left: 80px
+	}
+.logo-image {
+	color: #A6A6A6; height:35px
+	}
+.menu {
+	width: 70%; display: flex; justify-content: space-between; list-style: none;
+	}
+.list {
+	color: #A6A6A6; text-decoration: none; font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; font-size:13px;
+}
+.logo-two {
+	display:flex; width: 15%; justify-content: space-between; padding-right: 110px
+	}
+.search-logo {
+	width:15px
+	}
+.bag-logo {
+	width:13px;
+	}
+.banner-section {
+	background-color: #F5F5F7; height: 100px
+	}
+.banner-text{text-align: center;  padding-top: 15px; color: #5e5b5b;}
+.banner-text a{text-decoration: none;}
+.banner-two {
+	background-image: url(./images/iphone-13-pro.jpg); width: 100%; box-sizing: border-box;height: 350px;; 
+	background-position: center; background-size: cover; padding-top: 25px
+	}
+.pro {
+	text-align: center; font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif
+	}
+.pro-2 {
+	text-align: center; font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; padding-top: 5px
+	}
+.pro-3 {
+	display: flex; padding-left: 600px; justify-content: space-between; padding-right: 600px; padding-top: 10px;
+	}
+.pro-3-1 {font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 13px; text-decoration:none; color:blue}
+.section {
+	background-image: url(./images/iphone-13.jpg); width: 100%; box-sizing: border-box;height: 350px;; 
+	background-position: center; background-size: cover; padding-top: 25px; margin-top: 10px
+	}
+.section-1 {text-align: center; font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; color: white}
+.section-2{text-align: center; font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; color: pink}
+.section-3 {display: flex; padding-left: 620px; justify-content: space-between; padding-right: 610px; padding-top: 10px; color: blue}
+.section-3-1 {font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 13px; color: blue; text-decoration:none}
+.third {
+	background-image: url(./images/watch.jpg); width: 100%; box-sizing: border-box;height: 350px;; 
+	background-position: center; background-size: cover; padding-top: 25px; margin-top: 10px;
+	}
+.third-1 {text-align: center; font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; color: brown}
+.third-2 {height: 30px; padding-left: 633px}
+.third-4 {text-align: center; font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; color: black}
+
+.row {
+	width: 100%; display: flex; justify-content: space-between
+	}
+.row-1 {
+	width: 50%; background-image: url(./images/fitness.jpg); box-sizing: border-box;
+	background-position: center; background-size: cover; height: 700px; width:700px ;padding-top: 60px;  margin-left: 20px; margin-top: 10px
+	}
+.row-1pic {height: 30px; padding-left: 250px}
+.row-1-1 { text-align: center; font-size: 18px; font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; padding-top:10px}
+.row-1-3 {display: flex; justify-content:space-between; padding-left: 240px; padding-right: 235px; padding-top: 6px}
+.row-1-3-1 { color: blue; text-decoration: none; font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif }
+.row-2 {
+	width: 50%;background-image: url(./images/macbook-pro.jpg); box-sizing: border-box;
+	background-position: center; height: 700px; width: 700px; padding-top: 25px;  margin-left: 20px; margin-top: 10px;
+	margin-right:20px; padding-top: 60px
+	}
+.row-2-1 { text-align: center;}
+.row-2-2 { text-align: center; font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 18px; padding-top:10px}
+.row-2-3 {display: flex; justify-content:space-between; padding-left: 240px; padding-right: 260px; padding-top: 6px}
+
+.lion {width: 100%; display: flex; justify-content: space-between}
+.lion-one {
+	width: 50%; background-image: url(./images/valentine.jpg); box-sizing: border-box;
+	background-position: center; background-size: cover; height: 700px; width:700px ;padding-top: 60px;  margin-left: 20px; margin-top: 10px
+	}
+.lion-two {
+	width: 50%;background-image: url(./images/arcade.jpg); box-sizing: border-box;
+	background-position: center; height: 700px; width: 700px; padding-top: 25px;  margin-left: 20px; margin-top: 10px;
+	margin-right:20px; padding-top: 60px; background-size: cover;
+	}
+.lion-pic {height: 30px; padding-left: 250px}
+.lion-2 {display: flex; justify-content:space-between; padding-left: 230px; padding-right: 225px; padding-top: 6px}
+.lion-1 {text-align: center; font-family: Helvetica; color: purple}
+.lion-1-2 {text-align: center; font-size: 20px; font-family: Helvetica; color: purple}
+.lion-1-3 {text-align: center; color: blue; text-decoration: none; padding-top: 20px}
+
+.pot {width: 100%; display: flex; justify-content: space-between}
+.pot-one {
+	width: 50%; background-image: url(./images/card.jpg); box-sizing: border-box;
+	background-position: center; background-size: cover; height: 700px; width:700px ;padding-top: 60px;  margin-left: 20px; margin-top: 10px
+	}
+.pot-two {
+	width: 50%;background-image: url(./images/tv-plus.jpg); box-sizing: border-box;
+	background-position: center; height: 700px; width: 700px; padding-top: 25px;  margin-left: 20px; margin-top: 10px;
+	margin-right:20px; padding-top: 60px
+	}
+.pot-1 {color: darkgray; text-align: center; font-size: 14px; padding-top: 10px}
+.pot2-pic {height: 30px; padding-left: 275px;}
+.pot-2-1 {text-align: center; color: #A6A6A6; padding-top: 460px; font-size: 10px; font-weight: 100; letter-spacing: 5px;}
+.pot-2-2 {text-align: center; color: #A6A6A6; letter-spacing: 5px; font-weight: 10px; padding-top: 10px;}
+.pot-2-3 {text-align: center; color: white; font-weight: 80; letter-spacing: 10px; font-size: 45px;}
+.pot-2-4 {text-align: center; color: blue; text-decoration: none; padding-top: 20px; font-family: Arial, Helvetica, sans-serif; padding-top: 10px;} 
+
+.footer {background-color: #F5F5F7; height: 1000px; margin-top: 20px; padding-top: 20px; padding-bottom: 20px; padding-left: 80px; padding-right: 80px; background-size: cover;} 
+.footer-text { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 400; color: #5e5b5b;}
+
+.footnote {display: flex; width: 100%; padding-top: 20px; justify-content: space-between;}
+.footnote-one { width: 18%; list-style: none; font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+.footnote-two { width: 18%; list-style: none; font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+.footnote-three { width: 18%; list-style: none; font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+.footnote-four { width: 18%; list-style: none; font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+.footnote-five { width: 18%; list-style: none; font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+.link {padding-top: 7px; color: #424245; }
+.foot-text {padding-top: 40px; color: #5e5b5b;}
+.foot-link {color: blue; text-decoration: none;}
+.endnote {display: flex; width: 100%; justify-content: space-between; padding-top: 10px;}
+.endnote-ul {width: 60%; justify-content: space-between; list-style: none; display: flex; padding-right: 250px; padding-left: 20px; color: #5e5b5b;}
+.endnote-text-1 {width: 30%; color: #5e5b5b; font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+.endnote-text-2 { width: 10%; color: #5e5b5b; font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+
+
+/*Accessories page starts here*/
+
+
+.ace-banner {width: 100%; background-image: url(./ace-image/airpods-header.jpg); height: 410px; background-position: 445px; background-size: 1300px; padding-left: 200px; padding-top: 120px;} 
+.ace-text {color: brown; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px;}
+.ace-text2 { font-size: 40px; padding-top: 10px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.ace-text3 { color: #5e5b5b; padding-top: 10px; padding-bottom: 10px; font-family: 'Times New Roman', Times, serif;}
+.ace-text4 { color: blue; text-decoration: none; padding-top: 10px;}
+.ace-find { font-family: Arial, Helvetica, sans-serif; font-size: 20px;}
+.ace-input { width: 400px; height: 40px; margin-top: 10px; border-radius: 8px;}
+.ace-banner2 { padding-top: 50px;}
+.bullet {display: flex; width: 100%; list-style: none; text-align: center; justify-content: space-between; padding-left: 180px; padding-right: 180px; padding-top: 50px;}
+.bullet-1 { width: 50%; color: #5e5b5b; font-size: 15px;}
+.bullet-2 {width: 50%; color: #5e5b5b; font-size: 15px;}
+.access {width: 70%; margin: auto; align-items: center; display: flex; flex-direction: column;}
+.gallery {display: flex; width: 100%; justify-content: space-evenly; margin: auto ;padding-top: 40px;}
+.gallery-one, .gallery-two, .gallery-three, .gallery-four, .gallery-five {
+	width: 100px; height: 100px; border: 1px solid #424245; border-radius: 50%;
+}
+.apple {width: 100%;
+	/* border: solid; border-radius: 50px; border-width: 0.5px;*/
+}
+.lines {
+	display: flex; justify-content: space-between; width: 100%; margin: auto; list-style: none; padding-top: 40px; align-items: center;
+}
+.line-2 {
+	text-decoration: none; width: 300px; text-align: center; color: blue;}
+.gallery figcaption{text-align: center;}
+.phone-text {
+	text-align: center; padding-top: 50px;
+}
+.phone {
+	display: flex; width: 100%; margin-left: 180px; margin-right: 180px; justify-content: space-between; padding-right: 330px; padding-top: 20px;
+}
+.phone-one { width: 30%; height: 550px; background-size: contain; background-repeat: no-repeat; 
+	background-color: #F2F2F2; background-position: top; width: 400px; margin-right: 4px; border-radius: 20px; width: 360px;}
+.phone-two {width: 69%; background-image: url(./ace-image/featured_1.png); height: 550px; background-size: contain; background-position: top; 
+	background-repeat: no-repeat; width: 700px; margin-left: 4px; background-color: #F2F2F2; border-radius: 20px; width: 720px;}
+.phone-1-1 { text-align: center; padding-top: 16px; color: orangered}
+.phone-1-2 {text-align: center; padding-top: 5px;}
+.phone-1-3 { text-align: center; padding-top: 20px;}
+.phone-pic {height: 400px; padding-top: 35px; padding-left: 10px ;}
+.phone-1-4 {text-align: center; color: orangered; padding-top: 430px;}
+.solo {
+	width: 100%; display: flex; justify-content: space-between; margin-right: 180px; margin-left: 180px; padding-right: 330px; padding-top: 8px; padding-bottom: 20px;
+}
+.solo-one {width: 25%; background-color: #F2F2F2; height: 550px; width: 364px; border-radius: 20px; padding-top: 30px; padding-bottom: 10px;}
+.solo-two {width: 25%; background-color: #F2F2F2; height: 550px; width: 343px; margin-left: 8px; padding-left: 4px; border-radius: 20px; padding-top: 35px; padding-bottom: 10px;}
+.solo-three {width: 25%; background-color: #F2F2F2; height: 550px; width: 360px;margin-left: 8px; border-radius: 20px; padding-top: 30px; padding-bottom: 10px;}
+.solo-1-image {height: 290px; padding-left: 40px;}
+.solo-2-image { height: 290px; padding-left: 30px; }
+.solo-3-image { height: 290px; padding-left: 40px;}
+.solo-text { text-align: center; text-decoration: none; color: blue;}
+.valent { 
+	background-image: url(./ace-image/apple-valentines-day-accessories.png); height: 450px; margin-left: 180px; margin-right: 150px; margin-top: 60px; background-position: right; 
+	background-size: contain; background-repeat: no-repeat; background-color: #F9EDF7; padding-left: 100px;
+}
+.valent-1 { color: purple; padding-top: 200px; font-size: 40px; font-family: Arial, Helvetica, sans-serif;}
+.valent-2 { padding-top: 10px; padding-bottom: 10px;}
+.valent-3 { text-decoration: none;}
+.peice {
+	width: 100%; display: flex; justify-content: space-between; margin-right: 180px; margin-left: 180px; padding-right: 330px; padding-top: 50px; padding-bottom: 20px;	
+}
+.ball {background-image: url(./ace-image/homepod-mini-accessories.jpg); height: 450px; margin-left: 180px; margin-right: 150px; margin-top: 60px; background-position: bottom; 
+	background-size: contain; background-repeat: no-repeat; background-color: #F2F2F2;
+}
+.ball-1 {text-align: center; padding-bottom: 10px; padding-top: 45px; font-size: 45px;}
+.ball-2 {text-align: center;}
+.ball-3 {text-align: center; padding-bottom: 10px;}
+.ball-4 {text-align: center; text-decoration: none}
+
+.close {
+	background-color: #f2f2f2; padding-top: 20px; margin-top: 20px;
+}
+.close-one {
+	display: flex; width: 90%; justify-content: space-between; margin-left: 300px; padding-right: 400px; margin-right: 200px;
+}
+.close-one-icon { height: 50px; padding-left: 75px;}
+.close-one-text-1 { font-size: 13px; text-align: center;}
+.close-one-text-2 { font-size: 13px; text-align: center;}
+.close-one-text-3 { text-decoration: none; text-align: center; color: blue;}
+.close-one-A {width: 25%;}
+.close-one-B {width: 25%;}
+.close-one-C {width: 30%;}
+.close-two-text {
+	font-size: 12px; line-height: 1.33337; font-weight: 400; letter-spacing: -.01em; 
+	font-family: SF Pro Text,Myriad Set Pro,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; color: #5e5b5b;
+	padding-top: 30px; margin-left: 180px; margin-right: 150px;
+}
+.close-three {display: flex; margin-left: 180px; margin-right: 150px; justify-content: space-between;}
+.close-foot-text {padding-top: 40px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 400; color: #5e5b5b; margin-left: 180px;}
+
+
+/*Ipad page starts here*/
+
+
+.ipad-icon {
+	display: flex; justify-content: space-evenly; width: 75%; margin: auto;
+}
+.ipad-icon img{
+	width: 30px;
+	height: 50px;
+	margin: auto;
+}
+.ipad_col{ 
+	display: flex;
+	flex-direction: column;
+}
+.ipad_col figcaption{font-size: 13px;}
+.icon-text { background-color: #F2F2F2; margin-top: 20px; height: 30px; }
+.icon-text p{text-align: center; font-size: 13px; padding-top: 7px;}
+
+
+.ibanner{ background-image: url(./iPad-image/ipad_mini.jpg); height: 600px; background-size: contain; 
+	background-repeat: no-repeat; background-position: 650px; margin-top: 60px; display: flex; 
+	flex-direction: column; }
+.ibanner-2 {padding-left: 340px; width: 50%; padding-top: 120px;}
+.ibanner-text-1 { text-align: center; color: red;}
+.ibanner-text-2 {text-align: center; font-size: 45px;}
+.ibanner-text-3 {text-align: center;}
+.ibanner-text-4 { text-align: center; padding-top: 20px;}
+.ibanner-text-5 { border-radius: 15px; width: 45px; height: 25px; 
+	background-color: blue; color: white; margin-top: 12px; margin-bottom: 12px; 
+}
+.ibanner-text-6 {text-align: center; text-decoration: none; color: blue;}
+.ibanner-2{text-align: center;}
+.ibanner-b {color: rgb(241, 9, 241); font-style: italic;}
+
+.tbanner {
+	background-image: url(./iPad-image/ipad_10.jpg); height: 600px; background-size: cover; background-size: 750px; 
+	background-repeat: no-repeat; background-position: 150px; margin-top: 60px; display: flex; 
+	flex-direction: column;
+}
+.tbanner-2 {margin-left: 550px; width: 50%; padding-top: 150px; text-align: center;}
+
+.ybanner {background-image: url(./iPad-image/ipad_air.jpg); height: 600px; background-size: contain; 
+	background-repeat: no-repeat; background-position: 650px; margin-top: 60px; display: flex; 
+	flex-direction: column;}
+.ybanner-2 {padding-left: 340px; width: 50%; padding-top: 120px; text-align: center;}
+
+.mbanner {background-image: url(./iPad-image/ipad_pro_hero.jpg); height: 600px; background-size: cover; 
+	background-repeat: no-repeat; background-position: 250px; margin-top: 60px; display: flex; 
+	flex-direction: column; margin-bottom: 20px;}
+.mbanner-2 {margin-left: 450px; width: 50%; padding-top: 100px; text-align: center;}
+
+.background {background-color: #F2F2F2; background-size: cover;}
+.white-background {background-color: white; margin: 15px; margin-top: 40px;}
+.before {text-align: center; font-size: 60px; padding-top: 40px;}
+
+.Air {
+	width: 85%; display: flex; margin-top: 60px; justify-content: space-evenly; margin: auto; padding-top: 40px;
+}
+.Air-one {
+	width: 20%; display: flex; flex-direction: column; 
+}
+.Air-one-text {text-align: center;}
+.Air-one-pic {display: flex; flex-direction: column; margin: auto; align-items: center;}
+.air-text-1 { font-size: 22px; padding-top: 20px;}
+.air-text-2 { font-size: 18px; padding-top: 8px;}
+.air-text-3 { font-size: 12px; padding-top: 8px;}
+.air-text-4 {
+	border-radius: 15px; width: 45px; height: 25px; 
+	background-color: blue; color: white; margin-top: 12px; margin-bottom: 12px; 
+}
+.air-text-5 { font-size: 12px; text-decoration: none; color: blue;}
+.air-img {width: 150px;}
+.air-but { width: 20px; padding-top: 15px;}
+
+.Air-two {
+	width: 20%; padding-top: 20px;
+}
+.air2-img {width: 110px;}
+.air2-but { width: 60px; padding-top: 15px;}
+
+.Air-three {
+	width: 20%; padding-top: 18px;
+}
+.air-text-1-2 {font-size: 10px; color: red; padding-top: 5px;}
+.air-text-1-1 {font-size: 22px;}
+
+.Air-four {
+	width: 20%; padding-top: 45px ;
+}
+.air4-img {width: 90px;}
+.air4-but {width: 42px; padding-top: 15px;}
+
+.haven-one { width: 85%; display: flex; justify-content: space-evenly; margin: auto; padding-top: 60px;}
+.haven-1-1 { width: 20%; text-align: center;}
+.haven-1-2 {width: 20%; text-align: center;}
+.haven-1-3 {width: 20%; text-align: center;}
+.haven-1-4 {width: 20%; text-align: center;}
+.haven-one p{font-size: 13px; padding-top: 5px;}
+
+.haven-two {width: 85%; display: flex; justify-content: space-evenly; margin: auto; padding-top: 20px;}
+.haven-two p{font-size: 13px; padding-top: 5px;}
+
+.haven-three {width: 85%; display: flex; justify-content: space-evenly; margin: auto; padding-top: 20px;}
+.haven-three p{font-size: 13px; padding-top: 5px;}
+
+.haven-four {width: 85%; display: flex; justify-content: space-evenly; margin: auto; padding-top: 20px;}
+.haven-four p{font-size: 13px; padding-top: 5px;}
+
+.haven-five {width: 85%; display: flex; justify-content: space-evenly; margin: auto; padding-top: 20px;}
+.haven-five p{font-size: 13px; padding-top: 5px;}
+
+.haven-six {width: 85%; display: flex; justify-content: space-evenly; margin: auto; padding-top: 20px;}
+.haven-six p{font-size: 13px; padding-top: 5px;}
+
+.in {
+	display: flex; padding-top: 45px; padding-bottom: 50px; width: 30%; justify-content: space-evenly; margin: auto; list-style: none;
+}
+.in a{text-decoration: none; color: blue;}
+
+.ink {
+	display: flex; width: 100%; justify-content: space-evenly; margin: auto; margin-top: 10px;
+}
+.ink-one { background-image: url(./iPad-image/apple_card.jpg); background-color: white; width: 48%; height: 700px; background-repeat: no-repeat;
+	background-position: bottom; background-size: 700px; text-align: center; padding-top: 40px;
+
+}
+.ink-two { background-image: url(./iPad-image/trade_in.jpg); background-color: white; width: 48%; height: 700px; background-repeat: no-repeat; 
+	background-position: bottom; text-align: center; padding-top: 40px;
+
+}
+.ink-one ul{list-style: none; display: flex; justify-content: space-evenly; margin: auto; width: 200px;}
+.ink a{text-decoration: none; color: blue;}
+.ink-1-1 {color:rgb(241, 9, 241); padding-bottom: 15px;}
+.ink-1-2 { font-size: 14px; padding-bottom: 15px;}
+.ink-2-1 {padding-bottom: 15px;}
+
+.flower {display: flex; width: 75%; justify-content: space-evenly; margin: auto; padding-top: 40px;}
+.flower-one { display: flex; flex-direction: column; text-align: center; width: 20%; align-items: center;}
+.flower-two {display: flex; flex-direction: column; text-align: center; width: 20%; align-items: center;}
+.flower-three {display: flex; flex-direction: column; text-align: center; width: 20%; align-items: center;}
+.flower img{width: 40px;}
+.flower p{font-size: 13px;}
+.flower a{text-decoration: none; color: blue;}
+
+.intermediate {text-align: center; padding-top: 50px; padding-bottom: 25px;}
+
+.pencil { display: flex; width: 100%; justify-content: space-evenly; margin: auto; margin-top: 15px;
+}
+.pencil a{text-decoration: none; color: blue;}
+.pencil-one { background-image: url(./iPad-image/apple_pencil.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: contain; text-align: center; padding-top: 40px;}
+.pencil-two {
+	background-image: url(./iPad-image/smart_keyboard_folio.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: top; background-size: contain; text-align: center; padding-top: 400px;
+}
+.pencil ul{list-style: none; display: flex; justify-content: space-evenly; margin: auto; width: 180px;}
+.pencil-1-1 {font-size: 40px;}
+.pencil-1-2 {padding-top: 15px; padding-bottom: 15px;}
+
+.baseball { display: flex; width: 100%; justify-content: space-evenly; margin: auto; margin-top: 15px;
+}
+.baseball-one { background-image: url(./iPad-image/accessories.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: contain; text-align: center; padding-top: 40px;
+}
+.baseball-two {background-image: url(./iPad-image/airpods.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: contain; text-align: center; padding-top: 40px;}
+.baseball a{text-decoration: none; color: blue;}
+.baseball ul{list-style: none;}
+
+.blue {display: flex; height: 450; background-color: white; width: 98%; justify-content: space-evenly; margin: auto;}
+.blue-one {padding-top: 170px;}
+.blue img{width: 600px;}
+.blue-text {text-align: center; padding-top: 10px; padding-bottom: 10px;}
+
+.black {
+	display: flex; width: 100%; justify-content: space-evenly; margin: auto; margin-top: 15px;
+}
+.black-one { background-image: url(./iPad-image/icloud.jpg); background-color: white; width: 48.5%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: contain; text-align: center; padding-top: 40px;
+}
+.black-two {background-image: url(./iPad-image/apple_pay.jpg); background-color: white; width: 48.5%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: 425px; text-align: center; padding-top: 40px;
+}
+.black a{text-decoration: none; color: blue;}
+.black ul{list-style: none;}
+
+.orange {display: flex; width: 98%; justify-content: space-between; margin: auto; background-color: white; margin-top: 15px;
+}
+.orange-one {text-align: center; padding-top: 160px; padding-left: 150px;}
+
+.pink {
+	display: flex; width: 98%; justify-content: space-evenly; margin: auto; background-color: white; margin-top: 15px; height: 450px;
+	align-items: center;
+}
+.pink-one { text-align: center;}
+.pinky {height :250px}
+.pink-one img{height: 55px}
+.pink-one h6{font-size: 17px; padding-top: 10px; padding-bottom: 10px;}
+.pink-one ul{list-style: none; display: flex; margin: auto; justify-content: space-evenly;}
+.pink-one a{text-decoration: none; color: blue;}
+
+.brown {  display: flex; width: 100%; justify-content: space-evenly; margin: auto; margin-top: 15px;
+}
+.brown-one { background-image: url(./iPad-image/apple_news_plus.jpg); background-color: black; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: cover; text-align: center; padding-top: 40px;
+}
+.brown-two {background-image: url(./iPad-image/apple_music.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: contain; text-align: center; padding-top: 40px;}
+.brown a{ color: blue; text-decoration: none;}
+.brown ul{list-style: none; display: flex; margin: auto; justify-content: space-evenly; width: 180px;}
+.brown-one p{color: white;}
+
+.yellow {  display: flex; width: 100%; justify-content: space-evenly; margin: auto; margin-top: 15px;
+}
+.yellow-one { background-image: url(./iPad-image/fitness.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: contain; text-align: center; padding-top: 40px;
+}
+.yellow-two {background-image: url(./iPad-image/apple_arcade.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: contain; text-align: center; padding-top: 40px;}
+.yellow a{ color: blue; text-decoration: none;}
+.yellow ul{list-style: none; display: flex; margin: auto; justify-content: space-evenly; width: 180px;}
+
+.milk {  display: flex; width: 100%; justify-content: space-evenly; margin: auto; margin-top: 15px;
+}
+.milk-one { background-image: url(./iPad-image/apple_news_plus.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: cover; text-align: center; padding-top: 40px;
+}
+.milk-two {background-image: url(./iPad-image/apple_music.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: contain; text-align: center; padding-top: 40px;}
+.milk-one a{ color: white; text-decoration: none;}
+.milk-two a{color: blue; text-decoration: none;}
+.milk ul{list-style: none; display: flex; margin: auto; justify-content: space-evenly; width: 180px;}
+.milk-one p{color: white;}
+
+.gold {  display: flex; width: 100%; justify-content: space-evenly; margin: auto; margin-top: 15px;
+}
+.gold-one { background-image: url(./iPad-image/ipad_for_education.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: cover; text-align: center; padding-top: 40px;
+}
+.gold-two {background-image: url(./iPad-image/ipad_for_work.jpg); background-color: white; width: 48%; height: 550px; background-repeat: no-repeat;
+	background-position: bottom; background-size: cover; text-align: center; padding-top: 40px;}
+.gold a{ color: white; text-decoration: none;}
+.gold ul{list-style: none; display: flex; margin: auto; justify-content: space-evenly; width: 180px;}
+.gold-one p{color: white;}
+.gold h3 {color: white; font-size: 30px;}
+
+.end-logo {display: flex; align-items: center; width: 30px; justify-content: space-between; padding-top: 15px;}
+.end-logo h5{padding-left: 10px;}
+.end-logo img{height: 25px;}
+
+.ipad-foot {width: 80%; padding-top: 60px; margin: auto;}
+.ipad-text {font-size: 12px;}
+.ipad-foot .endnote{width: 100%; justify-content: space-between; margin: auto;}
+.ipad {display: flex; width: 100%; justify-content: space-between;}
+.ipad-ul {display: flex; list-style: none;}
+.ipad p{font-size: 14px;}
+.ipad li{font-size: 14px;}
